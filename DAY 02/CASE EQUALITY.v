@@ -3,6 +3,6 @@ module case_equality;
   initial begin
     a=3'h7;
     b=3'h4;
-    $display("Inequality = %0d",a === b);
+    $display("Case equality = %0d",a === b);
   end
 endmodule
